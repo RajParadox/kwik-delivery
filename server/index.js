@@ -27,7 +27,7 @@ app.get('/', (request, response) => {
         message: 'Welcome to the Kwik server!'
     });
 });
-app.get('/api/user', userRouter);
+app.use('/api/user', userRouter);
 connectDB().then(() => {
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`);

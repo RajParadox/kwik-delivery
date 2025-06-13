@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const addressSchhema = new mongoose.Schema({
+const addressSchema = new mongoose.Schema({
     address_line1: {
         type: String,
         required: [true, "Address line 1 is required"],
@@ -10,7 +10,7 @@ const addressSchhema = new mongoose.Schema({
         default: "",
     },
     mobile: {
-        type: Number,
+        type: String,
         required: [true, "Mobile number is required"],
     },
     status: {
