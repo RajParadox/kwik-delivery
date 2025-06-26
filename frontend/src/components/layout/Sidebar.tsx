@@ -11,7 +11,7 @@ interface SidebarProps {
 
 const navLinks = [
   { name: "Home", href: "/", icon: Home },
-  { name: "Categories", href: "/categories", icon: LayoutGrid },
+  { name: "Products", href: "/products", icon: LayoutGrid },
   { name: "My Orders", href: "/orders", icon: ScrollText },
   { name: "Favorites", href: "/favorites", icon: Heart },
   { name: "Offers & Deals", href: "/offers", icon: Percent },
@@ -53,7 +53,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           </div>
 
           {/* User Profile Section */}
-          <div className="p-4 border-b border-slate-200">
+          <Link className="p-4 border-b border-slate-200"href="/profile" onClick={onClose}>
             <div className="flex items-center gap-3">
               <img src="https://avatar.vercel.sh/jane-doe" alt="User" className="w-12 h-12 rounded-full" />
               <div>
@@ -61,7 +61,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                 <p className="text-sm text-slate-500">jane.doe@example.com</p>
               </div>
             </div>
-          </div>
+          </Link>
 
           {/* Navigation */}
           <nav className="flex-grow p-4 space-y-2">

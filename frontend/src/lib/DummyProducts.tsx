@@ -18,6 +18,7 @@ const subcategoryMapping = {
 
 const dummyProducts = [
   {
+    "id": "prod-001",
     "name": "Fresh Organic Apples (1kg)",
     "image": [
         "/Grocery.jpg"
@@ -36,6 +37,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-002",
     "name": "Whole Wheat Bread",
     "image": [
       "/Grocery.jpg"
@@ -54,6 +56,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-003",
     "name": "Paracetamol 500mg Tablets (Strip of 10)",
     "image": [
       "/Grocery.jpg"
@@ -72,6 +75,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-004",
     "name": "Multivitamin Tablets (Bottle of 30)",
     "image": [
       "/Grocery.jpg"
@@ -90,6 +94,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-005",
     "name": "Chicken Biryani",
     "image": [
       "/Grocery.jpg"
@@ -108,6 +113,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-006",
     "name": "Vegetable Pizza (Medium)",
     "image": [
       "/Grocery.jpg"
@@ -126,6 +132,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-007",
     "name": "Banana (Dozen)",
     "image": [
       "/Grocery.jpg"
@@ -141,6 +148,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-008",
     "name": "Cow's Milk (1 Liter)",
     "image": [
       "/Grocery.jpg"
@@ -158,6 +166,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-009",
     "name": "Cough Syrup (100ml)",
     "image": [
       "/Grocery.jpg"
@@ -175,6 +184,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-010",
     "name": "Band-Aids (Pack of 20)",
     "image": [
       "/Grocery.jpg"
@@ -192,6 +202,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-011",
     "name": "Veg Thali",
     "image": [
       "/Grocery.jpg"
@@ -209,6 +220,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-012",
     "name": "Burger with Fries",
     "image": [
       "/Grocery.jpg"
@@ -227,6 +239,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-013",
     "name": "Basmati Rice (5kg)",
     "image": [
       "/Grocery.jpg"
@@ -244,6 +257,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-014",
     "name": "Detergent Powder (1kg)",
     "image": [
       "/Grocery.jpg"
@@ -261,6 +275,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-015",
     "name": "Antacid Tablets (Chewable, 15 tabs)",
     "image": [
       "/Grocery.jpg"
@@ -278,6 +293,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-016",
     "name": "Hand Sanitizer (500ml)",
     "image": [
       "/Grocery.jpg"
@@ -295,6 +311,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-017",
     "name": "Paneer Butter Masala",
     "image": [
       "/Grocery.jpg"
@@ -312,6 +329,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-018",
     "name": "Masala Dosa",
     "image": [
       "/Grocery.jpg"
@@ -329,6 +347,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-019",
     "name": "Tomatoes (500g)",
     "image": [
       "/Grocery.jpg"
@@ -346,6 +365,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-020",
     "name": "Atta (Whole Wheat Flour) 1kg",
     "image": [
       "/Grocery.jpg"
@@ -363,6 +383,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-021",
     "name": "Pain Relief Spray (100ml)",
     "image": [
       "/Grocery.jpg"
@@ -380,6 +401,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-022",
     "name": "First Aid Kit (Basic)",
     "image": [
       "/Grocery.jpg"
@@ -397,6 +419,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-023",
     "name": "Butter Chicken",
     "image": [
       "/Grocery.jpg"
@@ -414,6 +437,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-024",
     "name": "Sushi Platter (Veg)",
     "image": [
       "/Grocery.jpg"
@@ -431,6 +455,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-025",
     "name": "Capsicum (250g)",
     "image": [
       "/Grocery.jpg"
@@ -448,6 +473,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-026",
     "name": "Cooking Oil (1 Liter)",
     "image": [
       "/Grocery.jpg"
@@ -465,6 +491,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-027",
     "name": "Blood Pressure Monitor",
     "image": [
       "/Grocery.jpg"
@@ -483,6 +510,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-028",
     "name": "Dental Floss",
     "image": [
       "/Grocery.jpg"
@@ -500,6 +528,7 @@ const dummyProducts = [
     "published": true
   },
   {
+    "id": "prod-029",
     "name": "Chicken Shawarma",
     "image": [
       "/Grocery.jpg"

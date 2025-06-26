@@ -5,8 +5,8 @@ dotenv.config();
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import helmet from 'helmet';
-import connectDB from './config/connectDB.js';
-import userRouter from './route/user.route.js';
+import connectDB from './src/config/connectDB.js';
+import userRouter from './src/route/user.route.js';
 
 const app = express();
 app.use(cors({

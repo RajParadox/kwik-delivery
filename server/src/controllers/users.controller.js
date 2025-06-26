@@ -3,7 +3,7 @@ import sendEmail from "../config/sendEmail.js";
 import UserModel from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import { urlencoded } from "express";
-import verifyEmailTemplate from "../utils/verifyEmailTemplate.js";
+import verifyEmailTemplate from "../../utils/verifyEmailTemplate.js";
 const { verify } = jwt;
 export async function getUserById(request, response) {
     try {
